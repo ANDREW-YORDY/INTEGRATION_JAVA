@@ -1,9 +1,9 @@
-
-package com.adr.service;
+package com.adr.test;
 
 public class JavaPy4JServer {
 
-    public String induceError(int errorCode) {
+    public String induceError(int errorCode) 
+    {
         switch (errorCode) {
             case 1:
                 throw new NullPointerException("(Simulated NullPointerException)");
