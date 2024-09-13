@@ -21,7 +21,7 @@ public class ErrorModel {
         errorLog.add(error);
     }
     
-    public List<String> getError()
+    public List<String> getErrors()
     {
         return new ArrayList<>(errorLog);
     }

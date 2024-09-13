@@ -3,8 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/service/JavaPy4JServer.java</file>
             <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/app/AppMain.java</file>
+            <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/view/ErrorGUI.java</file>
+            <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/model/ErrorModel.java</file>
+            <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/service/ErrorService.java</file>
         </group>
     </open-files>
 </project-private>
