@@ -46,5 +46,11 @@ public class ErrorService {
    }
 
    
+   
+   public void testMethod()
+   {
+       System.out.println("TESTING.");
+   }
+   
     
 }
