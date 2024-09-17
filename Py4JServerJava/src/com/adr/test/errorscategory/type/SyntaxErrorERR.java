@@ -2,7 +2,7 @@
 package com.adr.test.errorscategory.type;
 
 
-public class SyntaxError {
+public class SyntaxErrorERR {
     
     public void compilationError()
     {
