@@ -22,3 +22,6 @@ public class NumberFormatExceptionERR {
 //	at com.adr.test.errorscategory.type.NumberFormatExceptionERR.UncheckedExceptions(NumberFormatExceptionERR.java:10)
 //	at com.adr.app.AppMain.main(AppMain.java:54)
 //C:\Users\Conexion\AppData\Local\NetBeans\Cache\8.2\executor-snippets\run.xml:53: Java returned: 1
+
+
+
