@@ -13,6 +13,7 @@ import com.adr.test.errorscategory.type.SyntaxErrorERR;
 import com.adr.test.errorscategory.type.TypeMismatchERR;
 import com.adr.test.errorscategory.type.NullPointerExceptionERR;
 import com.adr.test.errorscategory.type.NumberFormatExceptionERR;
+import com.adr.test.log.ListLogginTemp;
 import com.adr.view.ErrorGUI;
 import py4j.GatewayServer;
 
@@ -50,9 +51,9 @@ public class AppMain {
 //          ClassCastExceptionERR classCastExceptionERR  = new ClassCastExceptionERR();
 //          classCastExceptionERR.UncheckedExceptions();
 
-            NumberFormatExceptionERR numberFormatExceptionERR = new NumberFormatExceptionERR();
-            numberFormatExceptionERR.UncheckedExceptions();
-          
+//            NumberFormatExceptionERR numberFormatExceptionERR = new NumberFormatExceptionERR();
+//            numberFormatExceptionERR.UncheckedExceptions();
+//          
 
         /**
          * ****************************************************
@@ -75,6 +76,10 @@ public class AppMain {
 //
 //        // Mensaje para confirmar que el servidor Py4J ha sido iniciado
 //        System.out.println("Py4J Server Started.");
+
+          ListLogginTemp listLogginTemp = new ListLogginTemp();
+          listLogginTemp.listTemp();
+            
     }
 
 }
