@@ -16,9 +16,11 @@ public class ErrorLoggerClass {
 
     // Constructor para inicializar el Logger y MemoryHandler.
     public ErrorLoggerClass() {
+        
         logger = Logger.getLogger(ErrorLoggerClass.class.getName());
         memoryHandler = new MemoryHandler( new ConsoleHandler(), 100, Level.SEVERE );
         logger.addHandler(memoryHandler);
+        
     }
     
     
