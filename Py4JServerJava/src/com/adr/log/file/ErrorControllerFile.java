@@ -1,6 +1,7 @@
 package com.adr.log.file;
 
 public class ErrorControllerFile {
+
     private ErrorHandlerFile errorHandler;
 
     public ErrorControllerFile(String logDirectory) {
@@ -19,7 +20,12 @@ public class ErrorControllerFile {
     }
 
     private void induceErrors() throws Exception {
-        int[] numbers = {1, 2, 3};
-        System.out.println(numbers[3]);  // Esto lanzará ArrayIndexOutOfBoundsException
+
+//        int[] numbers = {1, 2, 3};
+//        System.out.println(numbers[3]);  // Esto lanzará ArrayIndexOutOfBoundsException
+
+        Object obj = "Texto";
+        Integer num = (Integer) obj;
     }
+
 }
