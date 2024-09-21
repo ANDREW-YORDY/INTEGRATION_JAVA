@@ -3,8 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/DEV/Repos/JUNIORDEV/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/log/ErrorHandlerclass.java</file>
             <file>file:/C:/Users/DEV/Repos/JUNIORDEV/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/log/ErrorLoggerClass.java</file>
+=======
+<<<<<<< HEAD
+            <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/app/AppMain.java</file>
+            <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/log/ErrorLoggerClass.java</file>
+            <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/log/ErrorHandlerclass.java</file>
+=======
+            <file>file:/C:/Users/DEV/Repos/JUNIORDEV/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/app/AppMain.java</file>
+            <file>file:/C:/Users/DEV/Repos/JUNIORDEV/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/dbconfig/DBAdminConn.java</file>
+>>>>>>> 0733b466959bc8c27cddcf96fe5e622666133a4f
+>>>>>>> 88a5375d836f8428f5948403240f483519ff9079
         </group>
     </open-files>
 </project-private>

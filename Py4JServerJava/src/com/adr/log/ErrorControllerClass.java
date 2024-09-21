@@ -35,5 +35,4 @@ public class ErrorControllerClass {
         listLogginTemp.listTemp();
 
     }
-
 }

@@ -1,14 +1,12 @@
 package com.adr.app;
 
-import com.adr.log.ErrorControllerClass;
+import com.adr.log.file.ErrorControllerFile;
 
 public class AppMain {
-
     public static void main(String[] args) {
+        String logDirectory = System.getProperty("user.home") + "/logs/myapp";
         
-        ErrorControllerClass ctrError = new ErrorControllerClass();
-        ctrError.runErrors();
-
+        ErrorControllerFile ctrErrorF = new ErrorControllerFile(logDirectory);
+        ctrErrorF.runErrors();
     }
-
 }
