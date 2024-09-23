@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class ErrorLoggerFile {
+
     private Logger logger;
     private FileHandler fileHandler;
 
@@ -18,18 +19,18 @@ public class ErrorLoggerFile {
             Path logPath = Paths.get(logDirectory);
             Files.createDirectories(logPath);
 
-            String fileName = logPath.resolve("errors_" + 
-                LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd")) + 
-                ".log").toString();
+            String fileName = logPath.resolve("errors_"
+                    + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd"))
+                    + ".log").toString();
 
             fileHandler = new FileHandler(fileName, true);
             fileHandler.setFormatter(new SimpleFormatter() {
                 @Override
                 public String format(LogRecord record) {
                     return String.format("[%s] %s: %s%n",
-                        LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")),
-                        record.getLevel(),
-                        record.getMessage()
+                            LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")),
+                            record.getLevel(),
+                            record.getMessage()
                     );
                 }
             });

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ErrorHandlerFile {
+
     private List<String> errorList = new ArrayList<>();
     private ErrorLoggerFile errorLoggerFile;
 
