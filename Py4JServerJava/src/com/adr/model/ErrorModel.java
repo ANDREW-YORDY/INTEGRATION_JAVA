@@ -1,30 +1,24 @@
+
 package com.adr.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 public class ErrorModel {
-    
-    private final List<String> errorLog;
-    
-    
-    public ErrorModel()
-    {
-        this.errorLog = new ArrayList<>();
+    private List<String> errorList;
+
+    public ErrorModel() {
+        this.errorList = new ArrayList<>();
     }
-    
-    
-    public void addError(String error)
-    {
-        errorLog.add(error);
+
+    // Agrega un error a la lista
+    public void addError(String error) {
+        errorList.add(error);
     }
-    
-    public List<String> getErrors()
-    {
-        return new ArrayList<>(errorLog);
+
+    // Devuelve la lista de errores
+    public List<String> getErrors() {
+        return errorList;
     }
-    
-    
 }
+

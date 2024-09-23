@@ -27,4 +27,8 @@ public class ErrorControllerFile {
         Object obj = "Texto";
         Integer num = (Integer) obj;
     }
-}
+
+//        int[] numbers = {1, 2, 3};
+//        System.out.println(numbers[3]);  // Esto lanzará ArrayIndexOutOfBoundsException
+    }
+

@@ -6,8 +6,8 @@ import java.util.Random;
 
 public class ErrorService {
     
-    private final ErrorModel errorModel;
     
+    private final ErrorModel errorModel;    
     
     public ErrorService(ErrorModel errorModel)
     {

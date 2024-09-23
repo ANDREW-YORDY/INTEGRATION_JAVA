@@ -7,7 +7,7 @@ import com.adr.test.log.ListLogginTemp;
 public class ErrorControllerClass {
 
     public void runErrors() {
-        
+
         ErrorHandlerclass errorHandler = new ErrorHandlerclass();
         ErrorLoggerClass errorLogger = new ErrorLoggerClass();
 

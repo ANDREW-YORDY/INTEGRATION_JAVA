@@ -10,10 +10,12 @@ import java.time.format.DateTimeFormatter;
 
 public class ErrorLoggerFile {
 
+    
     private Logger logger;
     private FileHandler fileHandler;
 
     public ErrorLoggerFile(String logDirectory) {
+        
         try {
             logger = Logger.getLogger(ErrorLoggerFile.class.getName());
             Path logPath = Paths.get(logDirectory);
