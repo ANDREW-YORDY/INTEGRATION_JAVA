@@ -1,15 +1,15 @@
 package com.adr.app;
 
-import com.adr.exception.ExceptionHandlingSimpleClassModelImpl;
-import com.adr.model.exceptions.ExceptionHandlingSimpleModel;
+import com.adr.exception.ExceptionDetailsHandler;
+import com.adr.model.exceptions.ExceptionHandlingModel;
+import com.adr.exception.StackTraceHandler;
 
 public class AppMain {
 
-
     public static void main(String[] args) {
-
-        ExceptionHandlingSimpleClassModelImpl excepSimpleImpl = new ExceptionHandlingSimpleClassModelImpl();
-        excepSimpleImpl.exceptionSimpleGetModels();
+//
+        StackTraceHandler excepSimpleImpl = new StackTraceHandler();
+        //excepSimpleImpl.setStackTrace(ExecpMod, e);
 
     }
 
