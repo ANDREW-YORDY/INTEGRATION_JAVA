@@ -7,6 +7,7 @@ PRÓXIMOS MOVIMIENTOS EN EL DESARROLLO DE EXCEPCIONES JAVA:
 2. Convertir los registros a JSON.
 
 
+<<<<<<< Updated upstream
 ------------------------------
 class:  ExceptionHandlingSimpleClassModelImpl
 method: exceptionSimpleGetModels
@@ -25,6 +26,21 @@ method: exceptionSimpleGetModels
             System.out.println("getLocalizedMessage: " + ctrx.getLocalizedMessage());
             System.out.println("getCause:            " + ctrx.getCausex());
             System.out.println("getSuppressed:       " + ctrx.getSuppressedx());
+=======
+----------------
+
+ctrx.setExceptionType(e.getClass().getName());
+ctrx.setExceptionMessage(e.getMessage());
+ctrx.setGetCause(e.getLocalizedMessage());
+ctrx.setGetSuppressed(e.getSuppressed().toString());
+//getters.
+System.out.println("e:                " + e);
+System.out.println("getExceptionType: " + ctrx.getExceptionType());
+System.out.println("getMessage:       " + ctrx.getExceptionMessage());
+System.out.println("getCause:         " + ctrx.getGetCause());
+System.out.println("getGetSuppressed: " + ctrx.getGetSuppressed());
+
+>>>>>>> Stashed changes
 
 
 

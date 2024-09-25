@@ -6,7 +6,8 @@ public class ExceptionDetailsHandler {
 
     ExceptionHandlingModel ctrx = new ExceptionHandlingModel();
 
-    public void exceptionSimpleGetModels(ExceptionHandlingModel ExecpMod, Exception e) {
+    public void setExceptionDetails(ExceptionHandlingModel ExecpMod, Exception e) 
+    {
 
         System.out.println("(e): " + e);
 
