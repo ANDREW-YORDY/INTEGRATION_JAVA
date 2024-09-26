@@ -2,7 +2,7 @@ package com.adr.exception;
 
 import com.adr.model.exceptions.ExceptionHandlingModel;
 
-public class ExceptionHandlingSimpleClassModelImplTest 
+public class ExceptionHandlingTest 
 {
 
     ExceptionHandlingModel ctrx = new ExceptionHandlingModel();

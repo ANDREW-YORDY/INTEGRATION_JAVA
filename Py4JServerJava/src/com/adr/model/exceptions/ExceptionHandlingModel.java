@@ -59,13 +59,13 @@ public class ExceptionHandlingModel {
 
     @Override
     public String toString() {
-        return "ExceptionHandlingSimpleModel \n{\n"
-                + "exceptionType=      " + getExceptionType()    + "\n"
-                + "exceptionMessage=   " + getExceptionMessage() + "\n"
-                + "localizedMessage=   " + getLocalizedMessage() + "\n"
-                + "getCause=           " + getCausex()           + "\n"
-                + "GroupStackTrace=    " + getGroupStackTrace()  + "\n"
-                + "getSuppressed=      " + getSuppressedx()      + "\n"
+        return "ExceptionHandlingModel \n{\n"
+                + "  exceptionType    =   " + getExceptionType() + "\n"
+                + "  exceptionMessage =   " + getExceptionMessage() + "\n"
+                + "  localizedMessage =   " + getLocalizedMessage() + "\n"
+                + "  getCause         =   " + getCausex() + "\n"
+                + "  getSuppressed    =   " + getSuppressedx() + "\n"
+                + "  GroupStackTrace  =   " + getGroupStackTrace()
                 + "} \n";
     }
 
