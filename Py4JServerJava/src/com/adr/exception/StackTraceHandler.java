@@ -2,18 +2,17 @@ package com.adr.exception;
 
 import com.adr.model.exceptions.ExceptionHandlingModel;
 
-
 public class StackTraceHandler {
 
-    public void setStackTrace(ExceptionHandlingModel excepMod, Exception e) 
-    {
+    public void setStackTrace(ExceptionHandlingModel excepMod, Exception e) {
         System.out.println("STACK TRACE* ");
         StringBuilder stackTraceBuilder = new StringBuilder();
         for (StackTraceElement elem : e.getStackTrace()) {
-            stackTraceBuilder.append(elem.toString()).append("\n");
+            stackTraceBuilder.append(elem.toString());
         }
         excepMod.setGroupStackTrace(stackTraceBuilder.toString());
-        System.out.println("LISTA STACK-TRACE: " + excepMod.toString() );
+        System.out.println("LISTA STACK-TRACE: " + excepMod.toString());
+
     }
 
 }

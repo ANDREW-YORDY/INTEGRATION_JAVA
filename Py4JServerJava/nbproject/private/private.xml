@@ -3,18 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-<<<<<<< Updated upstream
             <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/app/AppMain.java</file>
-            <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/exception/ExceptionHandlingSimpleClassModelImplTest.java</file>
-            <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/exception/StackTraceHandler.java</file>
             <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/exception/ExceptionDetailsHandler.java</file>
-            <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/exception/ExceptionHandlingController.java</file>
-=======
-            <file>file:/C:/Users/DEV/Repos/JUNIORDEV/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/exception/ExceptionHandlingClass.java</file>
-            <file>file:/C:/Users/DEV/Repos/JUNIORDEV/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/exception/ExceptionDetailsHandler.java</file>
-            <file>file:/C:/Users/DEV/Repos/JUNIORDEV/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/app/AppMain.java</file>
-            <file>file:/C:/Users/DEV/Repos/JUNIORDEV/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/exception/StackTraceHandler.java</file>
->>>>>>> Stashed changes
+            <file>file:/C:/Users/Conexion/Downloads/ADR/DEV/REPOS/JUNIORDEV/JAVA/INTEGRATION/INTEGRATION_JAVA/Py4JServerJava/src/com/adr/exception/StackTraceHandler.java</file>
         </group>
     </open-files>
 </project-private>
