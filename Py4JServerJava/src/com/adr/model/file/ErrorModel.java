@@ -1,5 +1,5 @@
 
-package com.adr.model;
+package com.adr.model.file;
 
 import java.util.ArrayList;
 import java.util.List;

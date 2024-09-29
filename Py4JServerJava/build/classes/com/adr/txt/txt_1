@@ -3,10 +3,19 @@
 
 PRÓXIMOS MOVIMIENTOS EN EL DESARROLLO DE EXCEPCIONES JAVA:
 
-1. Implementar modelos o entidades, para mayor modularidad.
-2. Convertir los registros a JSON.
+1.* Determinar y concretar, cuales son las propiedades de la excepción, que de van a capturar y manipular, 
+   en los archivos (.log).
+2. Implementar modelos o entidades, para mayor modularidad.
+3. Convertir los registros a JSON.
 
 
+
+
+
+
+
+.
+.
 <<<<<<< Updated upstream
 ------------------------------
 class:  ExceptionHandlingSimpleClassModelImpl

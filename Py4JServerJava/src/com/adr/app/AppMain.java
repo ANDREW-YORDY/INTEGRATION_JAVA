@@ -8,13 +8,19 @@ public class AppMain {
 
     public static void main(String[] args) {
         
+        //Invocación del método a correr.
         ExceptionHandlingService ctrService = new ExceptionHandlingService();
         ctrService.induceError();
 
-//        String logDirectory = System.getProperty("user.home") + "/logs/myapptest";
-//        System.out.println("Los archivos de log se guardarán en: " + Paths.get(logDirectory).toAbsolutePath());
-//        ErrorControllerFile ctrErrorF = new ErrorControllerFile(logDirectory);
-//        ctrErrorF.runErrors();
+        //Gestión y guardado de la excepcion generada, en un archivo .log.
+        System.out.println("======================== save .log ============================");
+        String logDirectory = System.getProperty("user.home") + "/logs/myapp";
+        System.out.println("Los archivos de log se guardarán en: " + Paths.get(logDirectory).toAbsolutePath());
+        
+        
+        ErrorControllerFile ctrErrorF = new ErrorControllerFile(logDirectory);
+        ctrErrorF.runErrors();
+        System.out.println("\n");
 
     }
 

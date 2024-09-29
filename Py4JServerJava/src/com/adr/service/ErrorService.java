@@ -1,6 +1,6 @@
 package com.adr.service;
 
-import com.adr.model.ErrorModel;
+import com.adr.model.file.ErrorModel;
 import java.util.Random;
 
 

@@ -66,6 +66,7 @@ public class ExceptionHandlingModel {
                 + "  getCause         =   " + getCausex()           + "\n"
                 + "  getSuppressed    =   " + getSuppressedx()      + "\n"
                 + "  GroupStackTrace  =   " + getGroupStackTrace().toString()  + "\n"
+                + "  GroupStackTrace  =   " + getGroupStackTrace()  + "\n"
                 + "} \n";
     }
 
